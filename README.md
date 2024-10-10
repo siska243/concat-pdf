@@ -32,13 +32,15 @@ Ce projet permet de concaténer plusieurs fichiers PDF et images (JPEG, PNG) en 
 2. Modifiez le tableau `$files` dans le script `index.php` pour y inclure les noms des fichiers à concaténer.
 3. Exécutez le script :
    ```bash
-   php index.php
+   php -S localhost:3000 index.php
    ```
 4. Le fichier PDF concaténé sera généré sous le nom `output.pdf`.
 
 ## Exemple
 
 Le tableau `$files` contient la liste des fichiers à concaténer :
+Les fichiers doivent etre dans le repertoire public
+
 ```php
 $files = [
     'file1.pdf',
