@@ -17,7 +17,11 @@ Ce projet permet de concaténer plusieurs fichiers PDF et images (JPEG, PNG) en 
    ```bash
    composer require setasign/fpdi
    ```
-2. Installez l'extension **Imagick** (Linux) :
+2.  Installez **FPDI** via Composer
+  ```bash
+   composer require setasign/fpdf
+   ```
+3. Installez l'extension **Imagick** (Linux) :
    ```bash
    sudo apt-get install php-imagick
    ```
